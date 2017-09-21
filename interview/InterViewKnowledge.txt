@@ -1,0 +1,8 @@
+1，Linklist和Arralist的异同点。
+2，HashMap和HashTable的异同点。
+3，线程的状态和当前状态的行为。
+4，简述SpringMVC的流程，并用文字和图表分别表示。
+5，SQL语句的关联查询，排序，别名，表连接，子集，正则表达式。（Order by ,ASC(升序),DESC（降序））
+6，标识符的命名规范。
+7，String,StringBullder,StringBuffer的区别。（String的长度是定长的，每次内容发生变化都会变换在内存中的地址，StringBullder效率最高，StringBuffer是线程安全）。
+8，try Catch的调用方式。
