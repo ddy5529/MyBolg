@@ -32,3 +32,5 @@ firewall-cmd --state #查看默认防火墙状态（关闭后显示notrunning，开启后显示runnin
 修改mysql连接权限（进入linux的mysql中）：
 GRANT ALL PRIVILEGES ON *.* TO 'myuser'@'%' IDENTIFIED BY 'mypassword' WITH GRANT OPTION;
 FLUSH   PRIVILEGES;
+
+4,搭建远程连接服务：
