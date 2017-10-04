@@ -9,5 +9,5 @@
 本次项目将会采用时下最流行的前后端分离。在编程环境上我将会采用不同的编程环境进行开发。
   前端将会使用vue.js整体进行内容开发。前端将会在eclipse上进行编程。
   后端将会采用springboot进行接口开发。后端将会在idea上进行编程。
-  服务器将会采用CentOS开发。（需要安装有：JDK，Tomcat，FTP，）
+  服务器将会采用CentOS开发。（需要安装有：JDK，Tomcat，FTP，mysql）
   
