@@ -1,0 +1,4 @@
+1，先定义一个组件，如： xxx.Vue 的一个文件
+2，通过Vue去调用这个模板，如： Vue.component(tagName, options) 
+3，在页面中使用<tagName></tagName>这个标签来定义这个模板所在的位置，可以在模板里面单独去做跳转。
+4，通过prop这个属性去从父类向子类传递值，可以用过v-bind 去做动态绑定。
