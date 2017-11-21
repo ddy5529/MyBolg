@@ -1,0 +1,16 @@
+1，通过路由组件进行的静态跳转：  <router-link to="/foo">Go to Foo</router-link>
+1.1先在网页中使用标签<router-link> 和 <router-view></router-view> ，
+1.2在JS中导入模板，
+const Bar = { template: '<div>bar</div>' }
+并且在组件中定义他们：
+const routes = [
+  { path: '/bar', component: Bar }
+]
+1.3创建Routes实例，然后传入配置
+const router = new VueRouter({
+  routes // （缩写）相当于 routes: routes
+})
+1.4然后创建VUE对象并使用路由实例，并指定到相应的div之中。
+const app = new Vue({
+  router
+}).$mount('#app')
